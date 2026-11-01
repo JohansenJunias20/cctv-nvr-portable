@@ -1,0 +1,14 @@
+CCTV Ezviz & RTSP Local NVR - Versi Portable
+============================================
+
+1. Ekstrak SELURUH isi ZIP ke folder biasa (mis. C:\CCTV-NVR). Jangan jalankan dari dalam ZIP.
+2. Klik dua kali  Start-NVR.bat
+   - Pertama kali: klik "Yes" pada jendela UAC (membuka izin Firewall agar HP/PC lain bisa akses).
+   - Jika Windows SmartScreen muncul: "More info" -> "Run anyway".
+3. Browser terbuka otomatis ke http://localhost:3800
+   Alamat untuk HP/PC lain di Wi-Fi yang sama tertera di jendela hitam ("Buka dari HP/Wi-Fi").
+4. PC dan kamera CCTV harus berada di jaringan LAN/Wi-Fi yang sama.
+
+Data (database, rekaman, setting) tersimpan di folder  data\  - copy folder ini untuk backup.
+Tutup jendela hitam (atau Ctrl+C) untuk menghentikan server.
+Tidak perlu install Node.js - sudah termasuk di folder  node\
